@@ -4,3 +4,35 @@
     float: right;
     margin-right: 10%;
 };
+
+body, html {
+    height: 100%;
+    margin: 0;
+    
+};
+
+#background {
+    background-image: url("assets/img/Grizzly-Peak-View.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+};
+
+.background {
+    background-image: ("assets/img/Grizzly-Peak-View.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+};
+
+#hero-image {
+    background-image: url("assets/img/Grizzly-Peak-View.jpg"); 
+    background-color: black; 
+    height: 800px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  };
